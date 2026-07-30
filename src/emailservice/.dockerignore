@@ -1,0 +1,11 @@
+# Ignore generated protobuf Python files and package artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.eggs/
+.env
+venv/
+build/

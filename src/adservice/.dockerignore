@@ -1,0 +1,11 @@
+# Ignore Gradle build outputs and IDE files
+.gradle/
+build/
+out/
+*.class
+*.jar
+*.iml
+*.ipr
+*.iws
+*.log
+*.tmp

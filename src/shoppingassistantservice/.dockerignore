@@ -1,0 +1,10 @@
+# Ignore Python build artifacts and local env data
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.eggs/
+.env
+venv/

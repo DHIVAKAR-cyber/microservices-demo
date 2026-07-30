@@ -1,0 +1,10 @@
+# Ignore generated Python build artifacts and protobuf caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.eggs/
+.env
+venv/

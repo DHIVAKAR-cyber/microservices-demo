@@ -1,0 +1,10 @@
+# Ignore virtualenvs and Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.eggs/
+.env
+venv/
