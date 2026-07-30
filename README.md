@@ -22,6 +22,10 @@ microservices](/docs/img/architecture-diagram.png)](/docs/img/architecture-diagr
 
 Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
+## Project Analysis
+
+For an executive view of the architecture, runtime ports, environment variables, and DevOps tooling, see [`docs/PROJECT_ANALYSIS.md`](docs/PROJECT_ANALYSIS.md).
+
 | Service                                              | Language      | Description                                                                                                                       |
 | ---------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | [frontend](/src/frontend)                           | Go            | Exposes an HTTP server to serve the website. Does not require signup/login and generates session IDs for all users automatically. |
