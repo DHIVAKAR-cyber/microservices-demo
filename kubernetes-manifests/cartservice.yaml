@@ -16,6 +16,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cartservice
+  annotations:
+    microservices-demo/auto-commit: "cart-1"
   labels:
     app: cartservice
 spec:
