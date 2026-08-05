@@ -16,6 +16,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: checkoutservice
+  annotations:
+    microservices-demo/modified: "true"
   labels:
     app: checkoutservice
 spec:
