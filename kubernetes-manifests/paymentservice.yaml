@@ -16,6 +16,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: paymentservice
+  annotations:
+    microservices-demo/auto-commit: "payment-2"
   labels:
     app: paymentservice
 spec:
